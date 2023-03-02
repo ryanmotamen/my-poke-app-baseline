@@ -15,7 +15,7 @@ const App = () => {
           "https://pokeapi.co/api/v2/pokemon/" + pokemon
         );
         const data = await response.json();
-        console.log(data)
+        // console.log(data)
         addPokemonList(pokemonList => [...pokemonList, data]);
       }
       catch(e){
@@ -29,7 +29,7 @@ const App = () => {
     <div>
       <h1>Pokemon Team Builder</h1>
       <PokemonCreator handleAddPokemon = {handleAddPokemon}/>
-      <PokemonDisplay pokemonList={pokemonList} /> 
+      <PokemonDisplay className = 'pokemon-display-div'pokemonList={pokemonList} /> 
     </div>
   );
 };

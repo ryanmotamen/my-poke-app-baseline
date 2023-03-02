@@ -42,8 +42,8 @@ h3 {
 
 #pokemon-text-input {
 	background-color: white;
-  background-image: url(https://www.clipartmax.com/png/middle/147-1475559_pokeball-clipart-svg-pokeball-icon.png);
-	background-size: 3rem;
+  background-image: url(https://i.seadn.io/gae/s0NlgbbIA3BDju59DtGLhipY5tc0U0KM_IkajGm_9sFBBmOkOqxtTZPwGgZ-fcVU6oxUGa6wfwdMeiinto2OR5hJAw?auto=format&w=1000);
+	background-size: 2.2rem;
   background-repeat: no-repeat;
   padding-left: 40px;
 }
@@ -57,7 +57,7 @@ h3 {
 	flex-direction:column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 20rem;
+	width: 21.75rem;
 	height: 40rem;
 	margin:1rem;
 	color: black;
@@ -92,4 +92,34 @@ ul {
 	/* background-color:green; */
 	margin-left:-10px;
 	width:75%;
+}
+
+.hp {
+	background-color:pink;
+}
+
+.attack {
+	background-color:rgb(252, 87, 87);
+}
+
+.defense{
+	background-color:rgb(2, 201, 2);
+}
+
+.special-attack {
+	background-color:rgb(228, 6, 228);
+}
+
+.special-defense{
+	background-color:orange;
+}
+
+.speed{
+	background-color:yellow;
+}
+
+.pokemon-display-div{
+	margin:auto;
+	/* background-color:green; */
+	width: 80%;
 }
