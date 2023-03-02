@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack serve"
   },
   "author": "",
   "license": "ISC",
